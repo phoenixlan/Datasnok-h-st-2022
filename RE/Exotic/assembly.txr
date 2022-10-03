@@ -1,0 +1,23 @@
+    jmp code; 0x0A 0x15
+0x02:
+    data:
+        PHOENIX{asm_hacker}
+        0x5
+
+0x16:
+    code:
+        a = b  // 0x06
+        a = rom(data + a) // 0x03 0x2
+        m = a + b //  0x07
+        buffer(m) // 0x04
+        b++ // 0x02
+        a = 0 // 0x0c
+        a = rom(data+0x15, a) // 0x03 0x15
+        m = a - b // 0x08
+        jmp0 success // 0x09 [todo]
+        a = 0 /0x0c
+        jmp code 0x0a 0x15
+0x21:
+    success:
+        print 0x0b
+        halt 0x00
