@@ -11,7 +11,7 @@
 
 ## Løsning
 
-Å åpne filen i en hvilkensomhelst teksteditor viser en fil som ser ca slik ut:
+Å åpne filen i en hvilkensomhelst hexeditor(Jeg anbefaler HxD) viser en fil som ser ca slik ut:
 
 ```
 ptr:Bad Drive Crypto/ (main) $ xxd -l 512 test.img.encrypted                                                                                                                      [16:01:20]
