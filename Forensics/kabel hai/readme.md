@@ -2,7 +2,12 @@
 
 bady shark dodododododo baby shark dodododod bagy wget flag.png.
 
-# Løsning
+## Læringsmål
+
+ * Lære grunnleggende wireshark
+ * Forstå at det ikke er noe magi med at filer sendes over internett
+
+## Løsning
 
 1. Åpne filen i wireshark
 2. Trykk på fil
